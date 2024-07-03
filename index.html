@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cv</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="module.css" />
+    <title>Artur Shakhverdzian cv</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <nav>
+          <ul class="header-navigation">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="about-section">
+        <h1>Artur Shakhverdzian</h1>
+        <div class="about-container">
+          <h2 id="about">About me</h2>
+          <img src="./assets/avatar.webp" alt="user avatar" class="avatar" />
+          <p>
+            In my spare time I devote myself to learning JavaScript, TypeScript and React. I love to
+            expand my knowledge of these technologies and apply them to real projects.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="projects">My Projects</h2>
+        <ul class="unordered-list">
+          <li>
+            <a href="https://artursha.github.io/Salary-calculator/" target="_blank"
+              >Salary calculator</a
+            >
+          </li>
+          <li>
+            <a href="https://drinking-boardgame.vercel.app/" target="_blank"
+              >Fun game for the party</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="skills">My skills</h2>
+        <ul class="unordered-list">
+          <li>- HTML5, CSS3</li>
+          <li>- JavaScript, TypeScript, React</li>
+          <li>- Git, GitHub</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Code example</h2>
+        <pre>
+ const fib = (n) => {
+  if (n &lt;= 1) {
+  return n;
+  } else {
+  return fib(n - 1) + fib(n - 2);
+  }
+  };
+       </pre
+        >
+      </section>
+
+      <section>
+        <h2 id="languages">Languages</h2>
+        <ul class="unordered-list">
+          <li>- English: Intermediate/Upper-intermediate (B1-B2)</li>
+          <li>- Russian: Native</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="courses">Courses</h2>
+        <ul class="unordered-list">
+          <li>- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+          <li>- UlbiTV (completed)</li>
+          <li>- TeachMeSkills (completed)</li>
+        </ul>
+      </section>
+
+      <section class="contact-section" id="contacts">
+        <h2>Contact me</h2>
+        <ul class="unordered-list">
+          <li>
+            <img class="phone-icon" src="./assets/phone.png" alt="phone icon" />
+            <a href="tel:+375447107737">+375 44 710-77-37</a>
+          </li>
+          <li>
+            <img class="phone-icon" src="./assets/email.png" alt="mail icon" />
+            <a href="mailto:mr.arturio06@gmail.com">mr.arturio06@gmail.com</a>
+          </li>
+          <li>
+            <img class="contact-icon" src="./assets/tg.png" alt="telegram icon" />
+            <a href="https://t.me/ShaArtur" target="_blank">My telegram</a>
+          </li>
+          <li>
+            <img class="phone-icon" src="./assets/linkedin.png" alt="linkedin icon" />
+            <a href="https://www.linkedin.com/in/artursha/" target="_blank">LinkedIn</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container-footer">
+        <div class="footer-github">
+          <a href="https://github.com/artursha" target="_blank">
+            <img src="./assets/github.png" alt="github" /> Artur Shakhverdzian
+          </a>
+        </div>
+        <p>&copy; 2024</p>
+        <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+          <img src="./assets/rsschool-js.svg" alt="rsschool" width="80" height="30" />
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
